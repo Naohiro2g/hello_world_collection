@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>hello, world! in node.js browser version</title>
+    <meta charset="utf-8">
+    <script id="test">
+      alert("hello, world!");
+    </script>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+    <p>最初に、hello, world!のアラートがポップアップしたのは、このページに以下のようなalertのスクリプトが含まれているからです。スクリプトを表示するために、ややこしいこともしてますが。。
+    </p>
+    <div id="disp"></div>
+    <script>
+        const tag = document.querySelector('#test');
+        disp.textContent = tag.innerHTML;
+    </script>
+  </body>
+</html>
